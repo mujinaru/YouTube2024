@@ -69,6 +69,7 @@ section {
 .Volume {
     display: flex;
     justify-content: center;
+    margin: 15px 0;
 }
 
 .Volume img {
@@ -78,8 +79,30 @@ section {
 #doSpeed {
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 #ytSearch {
     height: 27px;
+}
+
+.VideoList {
+    list-style: none;
+    margin-left: 50px;
+}
+
+#mute {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.playbackSpeed {
+    text-align: center;
+}
+
+.speedList {
+    width: 35%;
+    border: 4px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
