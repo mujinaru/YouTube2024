@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    background-color: #c5c5c5;
+}
+
 ul {
     padding: 0;
     list-style: none;
@@ -36,6 +40,7 @@ img {
     width: 90px;
     height: 25px;
     border: solid #000 1px;
+    background-color: #fff;
     text-align: center;
     border-radius: 10px;
 }
@@ -50,6 +55,7 @@ img {
     width: 90px;
     padding: 45px 0;
     border: solid #000 1px;
+    background-color: #fff;
     text-align: center;
     border-radius: 10px;
 }
@@ -91,8 +97,14 @@ section {
     margin-left: 50px;
 }
 
+.speedList {
+    background-color: #fff;
+
+}
+
 .playbackSpeed {
     text-align: center;
+    background-color: #fff;
 }
 
 .speedList {
